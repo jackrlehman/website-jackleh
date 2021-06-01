@@ -1,0 +1,135 @@
+﻿
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+	font-family: "Helvetica", Helvetica, sans-serif;
+}
+.navbar{
+	background:transparent;
+	font-size: 1.2em;
+}
+button{
+	background-color: #23415C;
+	color: white;
+}
+
+button:hover{
+	background-color:white;
+}
+
+#home {
+	background: url(img/mountains.jpeg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.centerwidth {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 30%;
+} 
+
+.float-container {
+    padding: 0px;
+}
+
+.float-child {
+    width: 40%;
+    float: left;
+    padding: 0px;
+}  
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1 {
+	font-size: 250%;
+}
+.padding{
+	padding: 80px 0;
+}
+
+.paddingbottomonly{
+	padding-bottom: 80px;
+}
+
+.paddingtoponly{
+	padding-top: 80px;
+}
+
+
+.padding img{
+	width: 100%;
+}
+#fixed{
+	background: url(img/background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: black;
+}
+footer {
+	width: 100%;
+	background-color: #23415C;
+	padding: 5% 5% 10% 5%;
+	color: #FFF;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF
+}
+.fa:hover {
+	color: #d5d5d5;
+	text-decoration: none;
+}
+.icon{
+	max-width: 200px;
+}
+
+@media (max-width: 768px){
+	.landing-text h1{
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon{
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.centerwidth{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 60%;
+	}
+	#myskills{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 60%;
+	}
+
+	
+}
+
+@media only screen and (max-width: 800px) {
+	#projectimgs{
+		display: none;
+	}
+}
